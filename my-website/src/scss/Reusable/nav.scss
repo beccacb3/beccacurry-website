@@ -1,0 +1,18 @@
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 90%;
+    margin: auto;
+
+    .navContent{
+        width: 50%;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    li{
+        display: inline;
+    }
+}
