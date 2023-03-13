@@ -1,9 +1,10 @@
 import React from 'react';
 import '../scss/main.scss';
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Navlist(props){
     let list_content = props.nav_list.map((nav_item)=>
-        <li key={nav_item}><a href={"/"+nav_item}>{nav_item}</a></li>
+        <li key={nav_item}><AnchorLink href={"/"+nav_item}>{nav_item}</AnchorLink></li>
     );
     return(
         <ul>

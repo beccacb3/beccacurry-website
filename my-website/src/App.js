@@ -6,6 +6,7 @@ import Projects from './Components/Projects.js';
 import Contact from './Components/Contact.js';
 import React  from 'react';
 
+
 function App() {
   let section_list = ['Experience','Projects','Contact']
   return (

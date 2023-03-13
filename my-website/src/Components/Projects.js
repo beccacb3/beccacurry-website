@@ -6,27 +6,33 @@ const Projects=(props)=>
 {
   return(
     <div  id="Projects" className="Projects">
-      <h1>Projects</h1>
-      <div>
-        <div>
+      <div className="projects-container">
+        <h1>PROJECTS</h1>
+          <div className="project-flex">
+            <div className="project-row">
+              <div className="project">
 
-        </div>
-        <div>
+              </div>
+              <div className="project">
 
-        </div>
-        <div>
+              </div>
+              <div className="project">
 
-        </div>
+              </div>
+            </div>
 
-        <div>
+            <div className="project-row">
+              <div className="project">
 
-        </div>
-        <div>
+              </div>
+              <div className="project">
 
-        </div>
-        <div>
-          
-        </div>
+              </div>
+              <div className="project">
+                
+              </div>
+            </div>
+          </div>
       </div>
     </div>);
 }
