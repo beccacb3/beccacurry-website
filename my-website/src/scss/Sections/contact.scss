@@ -1,0 +1,39 @@
+$font1: 'Roboto', sans-serif;
+$font2: 'Inter', sans-serif;
+
+.Contact{
+    position: relative;
+
+    .contact-title{
+        position: relative;
+        width: 10%;
+
+        h2{
+            color: white;
+            font-family: $font1;
+            font-size: 60px;
+            transform: rotate(90deg);
+            font-weight: 400;
+            margin-right: 100%;
+        }
+    }
+
+    .contact-content{
+        background-color: #555555;
+        padding-top: 60px;
+        display: flex;
+
+        .black-subsection{
+            background-color: black;
+            color: white;
+            width: 90%;
+            border-radius: 0 40px 0 0;
+            font-family: $font2;
+
+            h3{
+                //font-family: $font1;
+                font-weight: 400;
+            }
+        }
+    }
+}

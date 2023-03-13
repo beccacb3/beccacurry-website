@@ -16,12 +16,14 @@ function Navlist(props){
 const Nav=(props)=>
 {
   return(
-    <div className="navBar">
-        <div className="navTitle">
-            <h1>{props.title}</h1>
-        </div>
-        <div className="navContent">
-            <Navlist nav_list={props.list}/>
+    <div className="nav">
+        <div className="navBar">
+            <div className="navTitle">
+                <h1>{props.title}</h1>
+            </div>
+            <div className="navContent">
+                <Navlist nav_list={props.list}/>
+            </div>
         </div>
     </div>);
 }

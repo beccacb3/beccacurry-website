@@ -6,29 +6,31 @@ const Contact=(props)=>
 {
   return(
     <div  id="Contact" className="Contact">
-        <div>
-            <h2>Contact</h2>
-        </div>
-        <div>
-            <h3>
-                I would love to get in touch!
-            </h3>
-            <div>
+        <div className="contact-content">
+            <div className="black-subsection">
+                <h3>
+                    I would love to get in touch!
+                </h3>
                 <div>
                     <div>
-                        <p>First Name</p>
-                        <p>Last Name</p>
+                        <div>
+                            <p>First Name</p>
+                            <p>Last Name</p>
+                        </div>
+                        <div>
+                            <p>Subject</p>
+                        </div>
+                        <div>
+                            <p>Inquiry...</p>
+                        </div>
                     </div>
                     <div>
-                        <p>Subject</p>
-                    </div>
-                    <div>
-                        <p>Inquiry...</p>
+                        <button>Submit</button>
                     </div>
                 </div>
-                <div>
-                    <button>Submit</button>
-                </div>
+            </div>
+            <div className="contact-title">
+                <h2>Contact</h2>
             </div>
         </div>
     </div>);

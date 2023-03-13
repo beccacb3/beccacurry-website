@@ -21,7 +21,6 @@ $border-radius: 5px;
     }
     
     .project-flex{
-
         .project-row{
             display: flex;
             width: 100%;
@@ -32,6 +31,7 @@ $border-radius: 5px;
                 width: 25%;
                 margin: 30px 0px;
                 display: block;
+                box-shadow: $box-shadow;
             }
             
             .project::before{
