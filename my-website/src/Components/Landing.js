@@ -8,7 +8,7 @@ const Landing=(props)=>
   return(
     <>
         <div  id="Landing" className="Landing">
-            <div>
+            <div className="max_width">
                 <h1>Hello World!</h1>
                 <h3>My name is Becca Curry</h3>
                 <h3>I'm a computer scientist and an artist</h3>
